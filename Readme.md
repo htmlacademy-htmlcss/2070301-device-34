@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Vladislav Balashov](https://up.htmlacademy.ru/htmlcss/34/user/2070301).
-* Наставник: `Павел Нюкало`.
+* Наставник: `Павел Нюкало`.(https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
