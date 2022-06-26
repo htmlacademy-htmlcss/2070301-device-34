@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
   </head>
+
   <body>
     <header class="main-header">
       <!--Шапка сайта-->
-      <section id="header-logo-point">
-        <img class="logo-header" src="#" alt="Логотип Device"> <!--Логотип, точка ссылки нижнего логотипа, правильно ли использование section как точки ссылки для логотипа?-->
-      </section>
       <nav class="navigation">
+        <img id="header-logo-point" class="logo-header" src="#" alt="Логотип Device"> <!--Логотип, точка ссылки нижнего логотипа,
         <ul class="navigation-list navigation-user"> <!-- Элементы функционала шапки для юзера -->
           <li class="navigation-item"> <!-- Элементы списка -->
             <a class="navigation-link" href="#">Поиск</a>
@@ -50,45 +49,27 @@
       <!--Основное тело сайта-->
       <section class="kvadro-tech-info-public-gallery"></section>
         <h1 class="visually-hidden">Магазин "Девайс"</h1><!-- Я несколько в сомнениях как именно нужно назвать сайт-->
-        <img class="slider-info-image" src="#" href="#" alt="Изображение квадрокоптера"> <!--Изображение является ссылкой на условную страницу описания продукта?-->
-        <button class="slider-button slider-prev" type="button">
-          <span class="visually-hidden">Предыдущий девайс</span>
-        </button>
-        <button class="slider-button slider-next" type="button">
-          <span class="visually-hidden">Следующей девайс</span>
-        </button>
-        <h2 class="slider-text">Порхает как бабочка, жалит как пчела!</h2><!--нужен ли здесь класс для привязки к слайдеру чтобы тест вместе с фото менять?-->
-        <p class="slider-text"><a>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
-        </a></p>
-      <a class="kvadro-tech-button-info" href="#">Подробнее</a>
-
-
       <ol class="slider-pagination"> <!-- Я не совсем уверен , можно ли через слайды сделать те три точки на макете, по которым переключаются девайсы-->
         <li class="slider-pagination-item">
-          <button class="slider-pagination-button slider-pagination-button-current" type="button">
-            <span class="visually-hidden">первый слайд</span>
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden">первый слайд квадрокоптер</span>
           </button>
         </li>
         <li class="slider-pagination-item">
           <button class="slider-pagination-button" type="button">
-            <span class="visually-hidden">второй слайд</span>
+            <span class="visually-hidden">второй слайд браслет</span>
           </button>
         </li>
         <li class="slider-pagination-item">
           <button class="slider-pagination-button" type="button">
-            <span class="visually-hidden">третий слайд</span>
+            <span class="visually-hidden">третий слайд штатив</span>
           </button>
         </li>
-      </ol>
-      <p class="slider-text info-number">
-        <a>800 м</a>
-        <a>50 м</a>
-      </p>
-      <p class="slider-text info-number-text">
-        <a>800 м</a>
-        <a>50 м</a>
-      </p>
+      </ol><!--Что должно быть указано в слайдах на данный момент?-->
       </section>
+
+
+
       <section class="image-category-shop">
         <figure href="#">
           <img src="" alt="Иконка Виртуальная реальность">
@@ -116,6 +97,60 @@
         </figure>
       </section>
 
+      <ol class="slider-pagination"> <!-- Я не совсем уверен , можно ли через слайды сделать те три точки на макете, по которым переключаются девайсы-->
+        <li class="slider-pagination-service">
+          <button class="slider-pagination-button-service" type="button">
+            <span class="visually-hidden">Доставка</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button-service" type="button">
+            <span class="visually-hidden">Гарантия</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button-service" type="button">
+            <span class="visually-hidden">Кредит</span>
+          </button>
+        </li>
+      </ol>
+
+      <section class="main-travel-modal-link">
+        <a class="navigation-link" href="travel-buy-kvadro.html">Доставка</a>
+      </section>
+
+      <section class="main-info-company-about">
+        <h2 class="main-info-company-contacts">О нас</h2>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+        <ul><p>Меловые линии</p></ul>
+        <ul><p>СДИК</p></ul>
+        <ul><p>ТоксБерри</p></ul>
+        <a class="navigation-link" href="#">подробнее о нас</a>
+      </section>
+
+      <section class="main-info-company-contacts">
+        <h2 class="main-info-company-contacts">Контакты</h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис.Заодно сможете проверить работоспособность покупки. </p>
+        <p>Интернет-магазин «Девайс»</p>
+        <address class="contacts-address-main">
+          <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
+        </address>
+        <ul><p>Время работы</p></ul>
+        <ul><p>пн—пт: с 10:00 до 22:00</p></ul>
+        <ul><p>сб—вс: с 10:00 до 19:00</p></ul>
+        <a class="navigation-link" href="#">напишите нам</a>
+      </section>
+
+      <section class="main-info-send-email">
+        <h2 class="main-info-company-contacts">Подпишитесь на рассылку</h2>
+        <p>Еженедельный дайджест с обзорами новинок,длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё. </p>
+        <!--Окно ввода емайла-->
+        <p>Это бесплатно</p>
+      </section>
+
+
 
 
     </main>
@@ -123,7 +158,7 @@
 
     <footer class="page-footer">
       <!--Подвал сайта-->
-      <section class="footer-logo-move" href="#header-logo-point"> <!-- Я наверно неправ и логотип надо в адреса убрать, но можно ли тогда будет сделать ссылку на верхний логотип?-->
+      <section class="footer-logo-move" href="#header-logo-point"> <!-- Я наверно неправ и логотип надо в адреса убрать-->
           <img class="logo-footer" src="#" alt="Логотип Device"> <!--Логотип, ссылка на верхний логотип-->
       </section>
       <section class="footer-contacts-address-text"">
@@ -132,7 +167,7 @@
           <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
         </address>
       </section>
-    <nav class="navigation">
+    <!--Я прочитал что в подвале nav не обязателен-->
       <ul class="navigation-list footer-navigation"> <!-- Элементы функционала подвала сайта-->
         <li class="navigation-item"> <!-- Элементы списка -->
           <a class="navigation-link" href="#">Контакты</a>
@@ -144,7 +179,7 @@
           <a class="navigation-link" href="#">Гарантия</a>
         </li>
       </ul>
-    </nav>
+
       <section class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
