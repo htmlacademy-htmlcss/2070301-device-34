@@ -4,8 +4,215 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
   </head>
-  <body>
 
+  <body>
+    <header class="main-header">
+      <!--Шапка сайта-->
+      <nav class="navigation">
+        <img id="header-logo-point" class="logo-header" src="#" alt="Логотип Device"> <!--Логотип, точка ссылки нижнего логотипа,
+        <ul class="navigation-list navigation-user"> <!-- Элементы функционала шапки для юзера -->
+          <li class="navigation-item"> <!-- Элементы списка -->
+            <a class="navigation-link" href="#">Поиск</a>
+            <!-- Элементы списка -->
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Войти</span></a>
+            <!-- Элементы списка -->
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Сравнить</span></a>
+            <!-- Элементы списка -->
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Корзина</span></a>
+          </li>
+        </ul>
+        <ul class="navigation-list"> <!-- Элементы функционала шапки сайта-->
+          <li class="navigation-item"> <!-- Элементы списка -->
+            <a class="navigation-link" href="#">Контакты</a>
+             <!-- Элементы списка: отдельная страница -->
+            <a class="navigation-link" href="catalog.html">Каталог товаров</a>
+            <!-- Элементы списка: имеет модальное окно -->
+            <a class="navigation-link" href="travel-buy-kvadro.html">Доставка</a>
+            <!-- Элементы списка -->
+            <a class="navigation-link" href="#">Гарантия</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main class="main-central-index">
+      <!--Основное тело сайта-->
+      <section class="kvadro-tech-info-public-gallery"></section>
+        <h1 class="visually-hidden">Магазин "Девайс"</h1><!-- Я несколько в сомнениях как именно нужно назвать сайт-->
+        <ol class="slider-pagination"> <!-- Я не совсем уверен , можно ли через слайды сделать те три точки на макете, по которым переключаются девайсы-->
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden">первый слайд квадрокоптер</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden">второй слайд браслет</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button" type="button">
+            <span class="visually-hidden">третий слайд штатив</span>
+          </button>
+        </li>
+      </ol><!--Что должно быть указано в слайдах на данный момент?-->
+      </section>
+
+
+
+      <section class="image-category-shop">
+        <figure href="#">
+          <img src="" alt="Иконка Виртуальная реальность">
+          <figcaption>Виртуальная реальность</figcaption>
+        </figure>
+        <figure href="#">
+          <img src="" alt="Иконка Моноподы для селфи">
+          <figcaption>Моноподы для селфи</figcaption>
+        </figure>
+        <figure href="#">
+          <img src="" alt="Иконка Экшн-камеры">
+          <figcaption>Экшн-камеры</figcaption>
+        </figure>
+        <figure href="#">
+          <img src="" alt="Иконка Фитнес-браслеты">
+          <figcaption>Фитнес-браслеты</figcaption>
+        </figure>
+        <figure href="#">
+          <img src="" alt="Иконка Умные часы">
+          <figcaption>Умные часы</figcaption>
+        </figure>
+        <figure href="#">
+          <img src="" alt="Иконка Квадрокоптеры">
+          <figcaption>Квадрокоптеры</figcaption>
+        </figure>
+      </section>
+
+      <ol class="slider-pagination"> <!-- Я не совсем уверен , можно ли через слайды сделать те три точки на макете, по которым переключаются девайсы-->
+        <li class="slider-pagination-service">
+          <button class="slider-pagination-button-service" type="button">
+            <span class="visually-hidden">Доставка</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button-service" type="button">
+            <span class="visually-hidden">Гарантия</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button-service" type="button">
+            <span class="visually-hidden">Кредит</span>
+          </button>
+        </li>
+      </ol>
+
+      <section class="main-travel-modal-link">
+        <a class="navigation-link" href="travel-buy-kvadro.html">Доставка</a>
+      </section>
+
+      <section class="main-info-company-about">
+        <h2 class="main-info-company-contacts">О нас</h2>
+          <p class="main-simple-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+          <p class="main-simple-text">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+        <ul>
+          <p class="main-list-transport">Меловые линии</p>
+        </ul>
+        <ul>
+          <p class="main-list-transport">СДИК</p>
+        </ul>
+        <ul>
+          <p class="main-list-transport">ТоксБерри</p>
+        </ul>
+        <a class="navigation-link" href="#">подробнее о нас</a>
+      </section>
+
+      <section class="main-info-company-contacts">
+        <h2 class="main-info-company-contacts">Контакты</h2>
+          <p class="main-simple-text">Вы можете забрать товар сами, заехав в наш офис.Заодно сможете проверить работоспособность покупки. </p>
+          <p>Интернет-магазин «Девайс»</p>
+          <address class="contacts-address-main">
+          <p class="main-simple-text">сб—вс: с 10:00 до 19:00</p>
+            <p class="contacts-address-text main-simple-text" >Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+            <a class="contacts-phone main-simple-text" href="tel:+78128121212">+7 812 812-12-12</a>
+          </address>
+        <ul>
+          <p class="main-simple-text">Время работы</p></ul>
+        <ul>
+          <p class="main-simple-text">пн—пт: с 10:00 до 22:00</p>
+        </ul>
+        <ul>
+          <p class="main-simple-text">сб—вс: с 10:00 до 19:00</p>
+        </ul>
+        <a class="navigation-link" href="#">напишите нам</a>
+      </section>
+
+      <section class="main-info-send-email">
+        <h2 class="main-info-company-contacts">Подпишитесь на рассылку</h2>
+        <form>
+          <label for="email">ваш e-mail</label>
+          <input type="email" id="email" name="email">
+          <input type="submit" value="подписаться">
+        </form>
+        <p class="main-simple-text">Еженедельный дайджест с обзорами новинок,длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё. </p>
+        <p class="main-simple-text">Это бесплатно</p>
+      </section>
+
+
+
+
+    </main>
+
+
+    <footer class="page-footer">
+      <!--Подвал сайта-->
+      <section class="footer-logo-move" href="#header-logo-point">
+          <img class="logo-footer" src="#" alt="Логотип Device"> <!--Логотип, ссылка на верхний логотип-->
+      </section>
+      <section class="footer-contacts-address-text"">
+        <address class="contacts-address">
+          <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
+        </address>
+      </section>
+    <!--Я прочитал что в подвале nav не обязателен-->
+      <ul class="navigation-list footer-navigation"> <!-- Элементы функционала подвала сайта-->
+        <li class="navigation-item"> <!-- Элементы списка -->
+          <a class="navigation-link" href="#">Контакты</a>
+        </li>
+        <li class="navigation-item"> <!-- Элементы списка: имеет модальное окно -->
+          <a class="navigation-link" href="travel-buy-kvadro.html">Доставка</a>
+        </li>
+        <li class="navigation-item"> <!-- Элементы списка -->
+          <a class="navigation-link" href="#">Гарантия</a>
+        </li>
+      </ul>
+
+      <section class="footer-social">
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Telegramm</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Instagramm</span>
+            </a>
+          </li>
+          </ul>
+            <a class="htmlacademy-link-logo" href="https://htmlacademy.ru/">
+              <span class="visually-hidden">html academy</span>
+            </a>
+      </section>
+    </footer>
     <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
 
   </body>
